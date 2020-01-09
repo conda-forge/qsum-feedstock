@@ -1,5 +1,5 @@
 {% set name = "qsum" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/QCoding/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 'e5c01285550d9df96568b12e711d52074263d42f0ba4078dd3fd4aff69c201f6'
+  sha256: '8e53c087558dac9491354efbeeaeb097cf191716815603671671e46f8cd39702'
 
 build:
   noarch: python
